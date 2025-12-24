@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+@import "tailwindcss";
+
+@theme {
+    --font-rubik: "Rubik", sans-serif;
+    --container-mobile: 375px;
+    --container-tablet: 768px;
+    --container-desktop: 1440px;
+
+    --breakpoint-ds: 1440px;
+
+    --color-gray-950: hsl(0, 0%, 17%);
+    --color-gray-900: hsl(0, 0%, 25%);
+    --color-gray-500: hsl(0, 0%, 44%);
+    --color-gray-400: hsl(0, 0%, 58%);
+    --color-gray-200: hsl(0, 0%, 85%);
+    --color-gray-100: hsl(0, 0%, 93%);
+    --color-green-300: hsl(164°, 100%, 62%);
+
+    --spacing-0: 0;
+    --spacing-100: 8px;
+    --spacing-200: 16px;
+    --spacing-300: 24px;
+    --spacing-400: 32px;
+    --spacing-600: 48px;
+    --spacing-1500: 120px;
+
+    --shadow-block: 0 4px 50px #00000030;
+    
+}
+
+
+
+body {
+    font-size: 18px;
+    font-family: "Rubik", sans-serif;
+    color: #00000031;
+}
+
+@layer components {
+    .gradient-1 {
+        background-image: linear-gradient(to bottom left, #5F86F2, #443D97);
+    }
+
+    .text-present-1 {
+        @apply text-[32px] leading-none font-medium;
+        letter-spacing: -0.25px;
+    }
+    .text-present-2 {
+        @apply text-[26px] leading-none font-medium;
+        letter-spacing: -0.25px;
+    }
+    .text-present-3 {
+        @apply text-[20px] leading-none font-medium;
+        letter-spacing: -0.25px;
+    }
+    .text-present-4 {
+        @apply text-[18px] leading-none font-normal;
+        letter-spacing: 0;
+    }
+    .text-present-5 {
+        @apply text-[12px] leading-none font-bold;
+        letter-spacing: 1.75px;
+    }
+    .text-present-6 {
+        @apply text-[10px] leading-none font-bold;
+        letter-spacing: 1.75px;
+    }
+}
