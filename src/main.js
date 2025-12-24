@@ -18,7 +18,7 @@ let map = null; // Leaflet map instance
 
 
 const iconPoint = L.icon({
-    iconUrl: '/public/assets/images/icon-location.svg',
+    iconUrl: '/assets/images/icon-location.svg',
     iconSize: [40, 45],
     shadowSize: [50, 64],
     iconAnchor: [22, 94],
